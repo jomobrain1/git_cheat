@@ -1,0 +1,123 @@
+[
+    
+    {  
+      
+    "id": 1,
+    "title": "Initialising a new git repo",
+    "title_comment":"",
+    "code":"git init" 
+    },
+    {  
+    "id": 2,
+    "title": "Add a single file to staging area",
+    "title_comment":"",
+    "code":"git add index.html" 
+    },
+    {"id": 3,
+     "title": "Add  all files to staging area",
+     "title_comment":"",
+     "code":"git add . " 
+    }
+    ,
+    {"id": 4,
+    "title": "Viewing the  commit history",
+    "title_comment":"",
+    "code":"git log  " 
+    },
+    {"id": 5,
+    "title": "Viewing the  commit history, one commit per line",
+    "title_comment":"",
+    "code":"git log --oneline  " 
+    },
+    {"id": 6,
+    "title": "Checking files in staging area/current branch you are in",
+    "title_comment":"",
+    "code":"git status " 
+    },
+    {
+      "id":7,
+      "title":"Checking  out into a specific commit/See how the code was at that commit ",
+      "title_comment":"",
+      "code":"git checkout [commit-id] ",
+      "process":[
+        
+          "git log --online",
+          "git checkout [commit-id] ",    
+           "git checkout master",
+           "press enter"
+
+      ]
+       
+    },
+    {
+      "id":8,
+      "title":"Going back to a specic commit i.e others are deleted/Dangerous ",
+      "title_comment":"",
+      "code":"git reset [commit id] --hard",
+      "process":[
+              
+           
+        "git log --online",
+        "git reset [commit-id] --hard "       
+        
+       
+      ]
+       
+    },
+
+    {
+      "id":9,
+      "title":"Going back to a specic commit i.e others are NOT deleted/not Dangerous ",
+    
+      "title_comment":"",
+      "code":"git revert [commit id]  "
+      ,
+      "process":[
+              
+      "git log --online",
+      "git revert [commit-id] ",       
+      "type :wq",
+      "press enter"
+        
+       
+      ]
+       
+    },
+    {"id":10,
+    "title": "branch list",
+    "title_comment":"",
+    "code":"git branch --list " 
+    },
+    {"id":11,
+    "title": "make a new branch",
+    "title_comment":"",
+    "code":"git branch branch-name " 
+    },
+    {"id":12,
+    "title": "switch to a brancH",
+    "title_comment":"",
+    "code":"git checkout branch-ame" 
+    },
+    {"id":13,
+    "title": "delete branch ",
+    "title_comment":"ensure you in master branch",
+    "code":"git branch -D branch-name" ,
+    "code_comment":"used b4 merging branches"
+    },
+    {"id":14,
+    "title": "create branch and enter the branch ",
+    "title_comment":"",
+    "code":"git checkout -b branch-name" ,
+    "code_comment":""
+    },
+    {"id":15,
+    "title": "merge a branch into the master branch ",
+    "title_comment":"ensure you are in the master branch",
+    "code":"git merge branch-name" ,
+    "code_comment":""
+    }
+   
+    
+    
+
+]

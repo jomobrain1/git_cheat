@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "tip":"git conflict",
+        "why":" A conflict arises when two separate branches have made edits to the same line in a file, or when a file has been deleted in one branch but edited in the other ",
+        "solution":"add to staging with (git add .) then git commit without the -m flag after removing the conflict comment. While in the Vim editor type [:wq] "
+    },
+    {
+        "id":2,
+        "tip":"When you make any change in any branch ensure you stage the changes (git add .) then commit them (git commit -m 'comment')",
+        "why":"",
+        "solution":""
+    },
+    {
+        "id":3,
+        "tip":"When Vim opens",
+        "why":"",
+        "solution":"type [:wq]"
+    }
+]
