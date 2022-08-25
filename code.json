@@ -163,8 +163,44 @@
     "title_comment":"",
     "code":"git remote add origin git@github.com:User/UserRepo.git" ,
     "code_comment":""
+    },
+    {"id":23,
+    "title": "Rename the current",
+    "title_comment":"",
+    "code":"git branch -m [new-branch-name]" ,
+    "code_comment":""
+    },
+    {"id":24,
+    "title": "check unstaged files",
+    "title_comment":"",
+    "code":"git diff" ,
+    "code_comment":""
     }
-    
+    ,
+    {"id":25,
+    "title": "configure email",
+    "title_comment":"",
+    "code":"git config --global user.name [ur name]" ,
+    "code_comment":""
+    },
+    {"id":26,
+    "title": "configure email",
+    "title_comment":"",
+    "code":"git config --global user.email [ur email]" ,
+    "code_comment":""
+    },
+    {"id":27,
+    "title": "merge a specific branch to the current branch",
+    "title_comment":"",
+    "code":"git merge [branch-name]" ,
+    "code_comment":""
+    },
+    {"id":28,
+    "title": "Download the content from s remote repo",
+    "title_comment":"",
+    "code":"git pull [remote]" ,
+    "code_comment":""
+    }
    
     
     
