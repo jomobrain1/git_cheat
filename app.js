@@ -8,10 +8,6 @@ fetch("./code.json")
 
     data.forEach(item => {
      
-      
-  
-
-  console.log();
   
     codes=`  
     

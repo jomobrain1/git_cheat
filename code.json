@@ -115,7 +115,56 @@
     "title_comment":"ensure you are in the master branch",
     "code":"git merge branch-name" ,
     "code_comment":""
+    },
+    {"id":16,
+    "title": "push code to a remote repo ",
+    "title_comment":"",
+    "code":"git push [remote_repo_url] [branch name e.g master]" ,
+    "code_comment":""
+    },
+    {"id":17,
+    "title": "change the url of an existing remote repository",
+    "title_comment":"",
+    "code":"git remote set-url origin git@github.com:User/UserRepo.git" ,
+    "code_comment":""
+    },
+    {"id":18,
+    "title": "push code to a remote repo after making a change",
+    "title_comment":"",
+    "code":"git push origin [master(branch name)]" ,
+    "code_comment":""
+    },
+    {"id":19,
+    "title": "clone a remote repo",
+    "title_comment":"",
+    "code":"git clone [remote_url]" ,
+    "code_comment":""
+    },
+    {"id":19,
+    "title": "check which remote repo you in",
+    "title_comment":"",
+    "code":"git remote -v" ,
+    "code_comment":""
+    },
+    {"id":20,
+    "title": "Pull code from connected remote repo",
+    "title_comment":"ensures code in local and remote repo are up to date",
+    "code":"git pull origin master" ,
+    "code_comment":""
+    },
+    {"id":21,
+    "title": "Pushing a specific none-main branch",
+    "title_comment":"ensures you in the branch and the code is staged and commited",
+    "code":"git push origin [none-main-branch-name]" ,
+    "code_comment":""
+    },
+    {"id":22,
+    "title": "add a new remote-url",
+    "title_comment":"",
+    "code":"git remote add origin git@github.com:User/UserRepo.git" ,
+    "code_comment":""
     }
+    
    
     
     
