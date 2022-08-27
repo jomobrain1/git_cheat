@@ -200,6 +200,12 @@
     "title_comment":"",
     "code":"git pull [remote]" ,
     "code_comment":""
+    },
+    {"id":29,
+    "title": "Forcefully push changes if you dont wanna pull changes from remote to local",
+    "title_comment":"",
+    "code":"git checkout master; git push -f" ,
+    "code_comment":""
     }
    
     
